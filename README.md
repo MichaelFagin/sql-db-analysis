@@ -19,3 +19,16 @@ The source Excel file consists of the following key modules:
 - **Database Normalization:** Converting flat Excel files into relational tables.
 - **Complex Joins:** Connecting disparate data sheets to find insights.
 - **Data Integrity:** Implementing constraints and triggers.
+
+## 🔍 Code Highlight: [CREATE TRIGGER]
+
+CREATE TRIGGER timecard_update
+AFTER UPDATE ON timecard
+FOR EACH ROW 
+	INSERT INTO timecard_log 
+    VALUES (old.date,old.employeeID,old.starttime,new.starttime,old.endtime,new.endtime,current_timestamp());  
+    
+# DML statement to fire the trigger
+UPDATE timecard
+SET date='2024-06-15',employeeID=12,starttime = '10:00:00', endtime = '18:30:00'
+WHERE date='2024-06-15' AND employeeID=12;
