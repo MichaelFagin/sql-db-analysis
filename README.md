@@ -5,7 +5,7 @@ This project demonstrates the design and implementation of a relational database
 
 ## 📄 Documentation
 For a detailed breakdown of the entity relationships, data types, and normalization process (1NF to 3NF), please refer to the full project documentation:
-* [**Download ER Diagram & Design Strategy (PDF)**](./docs/Database_Design_Documentation.pdf)
+* [**Download ER Diagram & Design Strategy (PDF)**](./docs/sql-db-analysis.pdf)
 
 ## 📁 Repository Structure
 - **/data**: Contains the raw multi-sheet Excel workbook (`.xlsx`) used as the data source.
