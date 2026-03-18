@@ -3,6 +3,10 @@
 ## 📝 Project Overview
 This project demonstrates the design and implementation of a relational database developed during my time at LSU. It transforms a complex, multi-sheet Excel dataset into a structured MySQL database to solve specific business logic challenges.
 
+## 📄 Documentation
+For a detailed breakdown of the entity relationships, data types, and normalization process (1NF to 3NF), please refer to the full project documentation:
+* [**Download ER Diagram & Design Strategy (PDF)**](./docs/Database_Design_Documentation.pdf)
+
 ## 📁 Repository Structure
 - **/data**: Contains the raw multi-sheet Excel workbook (`.xlsx`) used as the data source.
 - **scripts/**: SQL scripts for Table Creation (DDL) and Data Analysis (DML).
