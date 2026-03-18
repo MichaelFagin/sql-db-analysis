@@ -5,7 +5,7 @@ This project demonstrates the design and implementation of a relational database
 
 ## 📁 Repository Structure
 - **/data**: Contains the raw multi-sheet Excel workbook (`.xlsx`) used as the data source.
-- **scripts/**: (Coming Soon) SQL scripts for Table Creation (DDL) and Data Analysis (DML).
+- **scripts/**: SQL scripts for Table Creation (DDL) and Data Analysis (DML).
 
 ## 🗄️ Data Dictionary
 The source Excel file consists of the following key modules:
